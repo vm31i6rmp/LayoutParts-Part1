@@ -1,1 +1,39 @@
 @charset "UTF-8";
+.cell--table{
+  table-layout: fixed;
+  width: 100%;
+}
+
+.cell--table th{
+  line-height: 26px;
+  font-size: 18px;
+  background-color: #319c4a;
+}
+
+.cell--table td{
+  line-height: 22px;
+  font-size: 18px;
+  text-align: center;
+  /* background-color: #d5ffc7; */
+  /* td(子)の色を指定したら、tr(親)の色を指定しても変わらないから、tr(親)だけ色を指定 */
+}
+
+.cell--table th, .cell--table td{
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.cell--table tr{
+  background-color: #d5ffc7;
+}
+
+.cell--table tr:nth-child(even){
+  background-color: #bcbcbc;
+  /* theadとtbodyの中の偶数列のtrを指定 */
+  /* theadの中のth(子)は既に濃い緑に指定しているので、tr(親)を灰色に指定しても変わらない */
+}
+
+.cell--table tbody tr:last-child{
+  border-top: 1px double #ffffff;
+  /* tbodyだけ、中の偶数列のtrを指定 */
+}

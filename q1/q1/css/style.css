@@ -1,2 +1,66 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.box-white{
+  width: 200px;
+  padding: 20px 0;
+  font-size: 16px;
+  background-color: #fff;
+  text-align: center;/* 文字列の中央寄せは親要素に対して指定 */
+}
+
+.text-align{
+  display: inline-block;
+  background-color: #a4b3e9;
+  padding: 10px;
+}
+
+.margin{
+  width: 90px;
+  background-color: #a4b3e9;
+  font-size: 16px;
+  padding: 10px;
+  margin: auto;
+}
+
+.table{
+  display: table;
+}
+
+.table-cell{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-text{
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-text{
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.container{
+  position: relative;
+}
+
+.position-text{
+  display: inline-block;
+  padding: 10px;
+  background-color: #a4b3e9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

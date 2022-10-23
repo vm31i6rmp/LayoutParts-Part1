@@ -1,1 +1,48 @@
 @charset "UTF-8";
+.table-box{
+  display: table;
+  width: 100%;
+}
+
+.main--area .table-box:first-child{
+  margin-bottom: 50px;
+}
+
+.table-cell-box{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+.table-cell-red{
+  width: 300px;
+  background-color: #ff7b7b;
+}
+
+.table-cell-blue{
+  background-color: #7b86ff;
+}
+
+.table-cell-yellow{
+  width: 300px;
+  background-color: #fff27b;
+}
+
+.table-cell-green{
+  background-color: #7bff91;
+}
+
+.table-cell-pink{
+  width: 400px;
+  background-color: #ff7be2;
+}
+
+.table-cell-orange{
+  width: 400px;
+  background-color: #ffc67b;
+}
+
+.table-cell-lightblue{
+  background-color: #7bf2ff;
+}

@@ -1,2 +1,18 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.list{
+  display: flex;/* サイズの異なるボックスを並べる */
+  justify-content: center;
+}
+
+.list-box{
+  list-style: none;
+  width: 200px;
+  margin: 30px;
+  padding: 10px;
+  outline: 10px solid #655;
+  background-color: #d2b48c;
+  border-radius: 13px;
+  box-shadow: 0 0 0 6px #655;
+}
